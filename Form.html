@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Course Registraion Form</h1>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal_Info</legend>
+        <table>
+            <tr>
+                <td><label>First Name: </label></td>
+                <td><input type="text" placeholder="Ex:Rohit" name="First_name" required size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Surname: </label></td>
+                <td><input type="text" placeholder="Ex:Ravinder" name="Surname" required size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Mobile: </label></td>
+                <td><input type="tel" placeholder="999-888-666-1" name="Mobile" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Email: </label></td>
+                <td><input type="email" placeholder="='xyz@" name="Email" required size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Password: </label></td>
+                <td><input type="password" placeholder="xyz@123" name="password" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Confirm_Password: </label></td>
+                <td><input type="password" name="Confirm_Password" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>DOB:</label></td>
+                <td><input type="date" name="DOB" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="gender" value="m">male
+                    <input type="radio" name="gender" value="f">Female
+                    <input type="radio" name="gender" value="o">others</td>
+            </tr>
+            <tr>
+                <td><label>Select Country</label></td>
+                <td><select name="Country">
+                    <option value="Ind">India</option>
+                    <option value="Aus">Australia</option>
+                    <option value="US">USA</option>
+                </select></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+    <table>
+        <legend>Course Details</legend>
+        <tr>
+            <td>
+                <label>Select Course</label>
+            </td>
+            <td>
+                <select name="Course">
+                    <option value="Java">Java FullStack</option>
+                    <option value="Python">Python FullStack</option>
+                    <option value="DA">Data Analytics</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Class Mode</label>
+            </td>
+            <td>
+                <input type="radio" name="Mode" value="true">Online
+                <input type="radio" name="Mode_1" value="false">Offline
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Comments</label>
+            </td>
+            <td>
+                <textarea></textarea>
+            </td>
+        </tr>
+
+    </table>
+
+    </fieldset>
+
+    <button>Submit</button>
+    </form>
+</body>
+</html>

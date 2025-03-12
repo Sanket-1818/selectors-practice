@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .p1::first-letter{
+            color: blueviolet;
+            font-size: 20px;
+        }
+        .p1::first-line{
+            background-color: antiquewhite;
+        }
+        h1::before{
+            content: '{';
+            color: brown;
+        }
+        h1::after{
+            content: '}';
+            color: brown;
+        }
+        #p2:target{
+            background-color: red;
+        }
+        #p3:target{
+            background-color: orange;
+        }
+        #p4:target{
+            background-color: aqua;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#p2">Tag1</a>
+    <a href="#p3">Tag2</a>
+    <a href="#p4">Tag3</a>
+    <h1>HTML</h1>
+    <p class="p1">Hyper Text Markup Language is the basic skeleton of the website</p>
+    <p id="p2">Hi Hello</p>
+    <p id="p3">Good Morning</p>
+    <p id="p4">Good night</p>
+</body>
+</html>

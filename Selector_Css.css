@@ -1,0 +1,46 @@
+/* *{
+    background-color: palegoldenrod;  
+}  ---------------------------------------------->   Universal Selector("*" is used for Univeral selector)*/
+
+
+/* body{
+    background-color: palegoldenrod;
+}  ---------------------------------------------->   Element Selector("Tag Name" is used for Element selector)*/
+
+
+/* .heading{
+    background-color: palegoldenrod;
+}
+   
+p.info{
+    background-color: cyan;        Combination1=> <Using Element with the class>
+}
+
+.bg1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+
+ /*}  ---------------------------------------------->   Class Selector("." is used for class selector) */
+
+/* #abc{
+    background-color: palegoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+    
+   #xyz{
+   background-color: palegoldenrod;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  ---------------------------------------------->   Id Selector("#" is used for Id selector)*/
+
+
+/* h1,h2,p{
+    background-color: palegoldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+}  ---------------------------------------------->   Group Selector("," is used for Group selector)*/
+
+/* #abc.info{
+    background-color:aquamarine;                           <----------------Id with Class Combination------------------------->
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
